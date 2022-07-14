@@ -1,4 +1,6 @@
+/*===== Google Fonts =====*/
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+/*===== Global CSS =====*/
 html
 {
     scroll-behavior: smooth;
@@ -444,12 +446,12 @@ img
     right: 0;
 }
 /*===== Services =====*/
-.work-section
+.service-section
 {
     min-height: 100vh;
     background-color: var(--black-100);
 }
-.work-section .work-item
+.service-section .service-item
 {
     flex: 0 0 33.33%;
     max-width: 33.33%;
@@ -457,7 +459,7 @@ img
     display: flex;
     flex-wrap: wrap;
 }
-.work-section .work-item-inner
+.service-section .service-item-inner
 {
     box-shadow: var(--shadow-black-100);
     padding: 50px 15px;
@@ -466,11 +468,11 @@ img
     text-align: center;
     transition: all 0.3s ease;
 }
-.work-section .work-item-inner:hover
+.service-section .service-item-inner:hover
 {
     background-color: var(--main-color);
 }
-.work-section .work-item-inner .icon 
+.service-section .service-item-inner .icon 
 {
   
     background-color: var(--main-color);
@@ -484,17 +486,17 @@ img
     z-index: 1;
     transition: all 0.3s ease;
 }
-.work-section .work-item-inner:hover .icon
+.service-section .service-item-inner:hover .icon
 {
     background-color: var(--white);
     color: var(--main-color);
     font-size: 24px;
 }
-.work-section .work-item-inner .icon i
+.service-section .service-item-inner .icon i
 {
     line-height: 80px;
 }
-.work-section .work-item-inner h3
+.service-section .service-item-inner h3
 {
     font-size: 20px;
     font-weight: 600;
@@ -504,7 +506,7 @@ img
     transition: all 0.3s ease;
 
 }
-.work-section .work-item-inner:hover h3
+.service-section .service-item-inner:hover h3
 {
     color: var(--white);
 }
